@@ -7,9 +7,13 @@ table,th,td {
     border-collapse: collapse;
 }
 
-td {
+th {
+    background-color: seashell;
+}
+
+td, th {
     width: 150px;
-    height: 35px;
+    height: 30px;
 }
 
 td:nth-child(1), th:nth-child(1) {
@@ -30,5 +34,5 @@ tr:nth-child(even) {
 
 tr:nth-child(odd):not(:nth-child(1)) {
     background-color: darkblue;
-    color: white;
+    color: seashell;
 }
