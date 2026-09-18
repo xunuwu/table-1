@@ -1,0 +1,29 @@
+table,th,td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+.blue-tile {
+    background-color: blue;
+}
+
+.red-tile {
+    background-color: red;
+}
+
+.yellow-tile {
+    background-color: yellow;
+}
+
+.black-tile {
+    background-color: black;
+}
+
+.green-tile {
+    background-color: greenyellow;
+}
