@@ -1,0 +1,13 @@
+table,th,td {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+    background-color: orange;
+}
+
+tr:nth-child(odd):not(:nth-child(1)) {
+    background-color: darkblue;
+    color: white;
+}
